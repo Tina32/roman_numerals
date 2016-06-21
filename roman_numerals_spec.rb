@@ -22,6 +22,7 @@ describe 'Roman Numerals Encoder' do
     expect(@encoder.encode(100)).to eq('C')
     expect(@encoder.encode(500)).to eq('D')
     expect(@encoder.encode(1000)).to eq('M')
+    expect(@encoder.encode(2000)).to eq('MM')
   end
 
   it 'encodes numbers with multiple numerals' do
